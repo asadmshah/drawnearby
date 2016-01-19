@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_choose_color"
+        android:title="@string/choose_color"
+        android:icon="@drawable/ic_color_lens_white_24px"
+        android:orderInCategory="0"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_choose_radius"
+        android:title="@string/choose_radius"
+        android:icon="@drawable/ic_border_color_white_24px"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

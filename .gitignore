@@ -23,8 +23,6 @@ build
 local.properties
 reports
 
-google-services.json
+fabric.properties
 
-com_crashlytics_export_strings.xml
-
-moviegur.keystore
+drawnearby.keystore

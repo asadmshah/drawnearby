@@ -1,11 +1,44 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/mdBlack</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:dialogTheme">@style/AppDialog</item>
+        <item name="android:alertDialogTheme">@style/AppDialog</item>
+    </style>
+
+    <style name="AppTheme.Preferences" parent="AppTheme">
+        <item name="android:textColor">@color/black_primary_text</item>
+        <item name="android:textColorPrimary">@color/black_primary_text</item>
+        <item name="android:textColorSecondary">@color/black_secondary_text</item>
+        <item name="android:checkboxStyle">@style/AppTheme.Preferences.CheckBox</item>
+    </style>
+
+    <style name="AppTheme.Preferences.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:buttonTint">@color/colorAccent</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/black_toolbar_items</item>
+        <item name="android:colorBackground">@color/mdWhite</item>
+    </style>
+
+    <style name="Toolbar.Dark" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white_toolbar_items</item>
+        <item name="android:colorBackground">@color/mdBlack</item>
+    </style>
+
+    <style name="AppDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
 </resources>

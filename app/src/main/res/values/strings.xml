@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">DrawNearby</string>
+    <string name="unable_to_connect_to_lobby">Unable to connect to lobby</string>
+    <string name="lobby">Lobby</string>
+    <string name="enter_room_name">Enter Room Name</string>
+    <string name="create_room">Create Room</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_color">Choose Color</string>
+    <string name="choose_radius">Choose Radius</string>
+    <string name="unable_to_connect_to_room">Unable to connect to room</string>
+    <string name="nearby_connections_service_id">com.asadmshah.drawnearby.service</string>
+    <string name="a_network_error_occurred">A network error occurred</string>
+    <string name="an_unknown_error_occurred">An unknown error occurred</string>
+    <string name="disconnected_from_room">Disconnected from room</string>
+    <string name="use_nearby_connections">Use Nearby Connections</string>
+    <string name="settings">Settings</string>
+    <string name="use_local_server">Use Local Server</string>
+    <string name="enter_local_server_address">Enter Local Server Address</string>
+    <string name="nearby_connections_api_enabled">Nearby Connections API Usage Enabled</string>
+    <string name="nearby_connections_api_disabled">Nearby Connections API Usage DIsabled</string>
+    <string name="local_server_usage_enabled">Local Server Usage Enabled</string>
+    <string name="local_server_usage_disabled">Local Server Usage Disabled</string>
+    <string name="service_to_use">Service To Use</string>
+    <string name="select_service_to_use">Select Service to Use</string>
+    <string name="select_service_to_use_to_connect_with_devices">Select service to use to connect with devices</string>
+    <string name="local_server_address">Local Server Address</string>
+    <string name="launch_your_own_local_server">Launch your own local server</string>
+    <string name="disconnected_from_lobby">Disconnected from lobby</string>
+    <string name="unable_to_connect_to_wifi">Unable to connect to WiFi</string>
 </resources>

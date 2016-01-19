@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".screens.settings.SettingsActivity"
+    >
+
+    <ListPreference
+        android:key="service_to_use"
+        android:title="@string/service_to_use"
+        android:dialogTitle="@string/select_service_to_use"
+        android:entries="@array/nearby_service_preference_entries"
+        android:entryValues="@array/nearby_service_preference_entries_values"
+        android:summary="@string/select_service_to_use_to_connect_with_devices"
+        />
+
+    <EditTextPreference
+        android:key="local_server_address"
+        android:title="@string/local_server_address"
+        android:dialogTitle="@string/enter_local_server_address"
+        />
+
+    <PreferenceScreen
+        android:title="@string/local_server"
+        android:summary="@string/launch_your_own_local_server"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://github.com/asadmshah/nearbydrawer_server"
+            />
+    </PreferenceScreen>
+
+</PreferenceScreen>
