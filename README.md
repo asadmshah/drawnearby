@@ -1,5 +1,5 @@
 <a href="https://play.google.com/store/apps/details?id=com.asadmshah.drawnearby">
-    <img src="assets/feature_graphic.jpg" width="1024px" height="500px" />
+    <img src="assets/feature_graphic.png" width="1024px" height="500px" />
 </a>
 
 <a href="https://play.google.com/store/apps/details?id=com.asadmshah.drawnearby">
